@@ -7,6 +7,9 @@ import { Cart } from "./";
 const Navbar = () => {
   const { showCart, setShowCart, totalQuantities } = useStateContext();
 
+
+
+
   return (
     <div className="navbar-container">
       <p className="logo">
